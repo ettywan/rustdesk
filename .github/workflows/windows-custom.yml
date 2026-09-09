@@ -9,6 +9,9 @@ name: Windows Custom Build
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - custom-server-config
 
 env:
   RUST_VERSION: "1.75"
